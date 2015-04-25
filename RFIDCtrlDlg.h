@@ -43,8 +43,6 @@ public:
 	afx_msg void OnBnClickedBtnTagSearch();
 	afx_msg void OnBnClickedBtnCtrlInfo();
 	afx_msg void OnBnClickedBtnCtrlConfig();
-	INT nCheckMaterialValidityForBosch();
-	INT nCheckMaterialValidityForBoschV2();
 	INT nWriteBonderIDToRfidTagAndValidate(int nMemOffset, CString szBonderID, BOOL bIsTest);
 	INT nWriteBonderIDToRfidTagAndValidateV2(int nMemOffset, CString szBonderID, BOOL bIsTest);
 	afx_msg void OnBnClickedBtnWrite2();

@@ -33,8 +33,7 @@ Purpose: This module was developed to operate a RFID Read/Write controller,
 And it also includes some sample test cases by based on real data 
 from some RFID Tags. 
 
- 17 June 2014 : One thirtpart SerialPort class is used for RS232 communication
-                purpose. 
-				Module : SerialPort.H
+ 17 June 2014 : One thirtpart SerialPort class is used for RS232 communication. 
+				Module : SerialPort.H, SerialPort.cpp
 				Purpose: Interface for an MFC wrapper class for serial ports
                 Copyright (c) 1999 - 2013 by PJ Naughter.

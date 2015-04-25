@@ -2,3 +2,5 @@ venv
 *.pyc
 *.obj
 *.exe
+*.pdb
+*.bak

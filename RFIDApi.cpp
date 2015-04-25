@@ -818,7 +818,7 @@ BOOL CRFIDCtrl::IsAllPartInTheBoatSameType(int nNumOfWP, CString szTagData)
 	return bIsValid;
 }
 
-BOOL CRFIDCtrl::CheckMaterialValidityForBosch(int nNumOfWP)
+BOOL CRFIDCtrl::CheckMaterialValidity(int nNumOfWP)
 {
 
 	INT nStartAddress = 0x00;
@@ -852,7 +852,7 @@ BOOL CRFIDCtrl::CheckMaterialValidityForBosch(int nNumOfWP)
 	return FALSE;
 }
 
-BOOL CRFIDCtrl::CheckMaterialValidityForBoschV2(int nNumOfWP)
+BOOL CRFIDCtrl::CheckMaterialValidityV2(int nNumOfWP)
 {
 	INT nBlockMemSizeForPart = 100;
 	INT nStartAddress = 0;

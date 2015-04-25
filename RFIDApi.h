@@ -427,8 +427,8 @@ public:
 
 public:
 	BOOL SearchForRfidTag();
-	BOOL CheckMaterialValidityForBosch(int nNumOfWP);
-	BOOL CheckMaterialValidityForBoschV2(int nNumOfWP);
+	BOOL CheckMaterialValidity(int nNumOfWP);
+	BOOL CheckMaterialValidityV2(int nNumOfWP);
 	CString GetPartTypeInfo(int nPartIndex);
 	CString GetPartBarcode(int nPartIndex);
 	INT WriteBonderIDToRfidTag(int nNumOfWP, CHAR *pBonderID, INT nBlockOffset);
