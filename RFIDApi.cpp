@@ -3,7 +3,7 @@ File : RFIDApi.h
 Date : 17 June 2014
 Author : Sivabalan Suthakaran
 Purpose: This module was developed to support RFID read/write controller using
-		 MFC program.
+		 MFC a program.
          Even though there are many different RFID controller with different 
 		 communication protocols, this module is specifically focus on 
 		 Balluff BIS00W4[CO405-USB-01] RFID read/write controller which 

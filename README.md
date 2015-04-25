@@ -1,7 +1,7 @@
 File : RFIDApi.h
 Date : 17 June 2014
 Author : Sivabalan Suthakaran
-Purpose: This module was developed to operate RFID Read/Write controller,
+Purpose: This module was developed to operate a RFID Read/Write controller,
          Even though there are many different RFID controller with different 
 		 communication protocols, we choose Balluff BIS00W4[CO405-USB-01] RFID
 		 read/write controller which uses ABx_FAST_COMMUNICATION_PROTOCOL
